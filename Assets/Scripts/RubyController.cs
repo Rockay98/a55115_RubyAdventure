@@ -15,7 +15,7 @@ public class RubyController : MonoBehaviour
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
-
+        currentHealth = 1;
         currentHealth = maxHealth;
     }
 
