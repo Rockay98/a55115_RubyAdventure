@@ -10,11 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 7402749683558252458}
   - component: {fileID: 8906861564855276064}
+  - component: {fileID: -4107779173739210232}
   - component: {fileID: 3172810216701218448}
   - component: {fileID: 1989968518511469773}
   - component: {fileID: 1971198756283198179}
   - component: {fileID: -4515734584695434858}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ruby
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,6 +89,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!114 &-4107779173739210232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4345078966633955805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49b5e839b73a16458cd0c04789aab8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &3172810216701218448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102,6 +115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   maxHealth: 5
+  projectilePrefab: {fileID: 8071400544862662769, guid: c8a55ea112a315a40802beb2ffd704f2, type: 3}
   timeInvincible: 2
 --- !u!50 &1989968518511469773
 Rigidbody2D:
