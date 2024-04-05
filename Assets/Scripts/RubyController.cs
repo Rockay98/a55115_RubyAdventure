@@ -28,6 +28,7 @@ public class RubyController : MonoBehaviour
 
     public AudioClip cogThrowClip;
     public AudioClip footstepsSound;
+    public AudioClip playerHit;
     // Start is called before the first frame update
     void Start()
     {
@@ -106,6 +107,7 @@ public class RubyController : MonoBehaviour
             isInvincible = true;
             invincibleTimer = timeInvincible;
             animator.SetTrigger("Hit");
+            audioSource.PlayOneShot(playerHit);
         }
 
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
