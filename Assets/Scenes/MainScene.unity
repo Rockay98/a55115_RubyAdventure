@@ -231,7 +231,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &151236426
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1179,6 +1179,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4416207009572592800, guid: fa5c25100e972224eb3999833b5883f9, type: 3}
+      propertyPath: dialogBox
+      value: 
+      objectReference: {fileID: 151236425}
     - target: {fileID: 1556151783286720332, guid: fa5c25100e972224eb3999833b5883f9, type: 3}
       propertyPath: m_Name
       value: Jambi

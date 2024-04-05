@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1824739270610693619}
   - component: {fileID: 5827806043557032926}
   - component: {fileID: 4143106016229289233}
+  - component: {fileID: -4416207009572592800}
   m_Layer: 11
   m_Name: Jambi
   m_TagString: Untagged
@@ -152,3 +153,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8097414, y: 0.35297394}
   m_EdgeRadius: 0
+--- !u!114 &-4416207009572592800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556151783286720332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 760929f3b1b5b7a42a5f53a64710c56d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayTime: 4
+  dialogBox: {fileID: 0}
