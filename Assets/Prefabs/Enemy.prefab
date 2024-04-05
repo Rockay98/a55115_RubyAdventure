@@ -177,6 +177,7 @@ MonoBehaviour:
   vertical: 0
   changeTime: 3
   smokeEffect: {fileID: 5777245898151269272}
+  robotWalk: {fileID: 8300000, guid: ca1f7de23fccf474a95ce555da12d37e, type: 3}
 --- !u!95 &3269119122088942951
 Animator:
   serializedVersion: 5
