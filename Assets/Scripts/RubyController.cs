@@ -26,6 +26,8 @@ public class RubyController : MonoBehaviour
 
     AudioSource audioSource;
 
+    public AudioClip cogThrowClip;
+    public AudioClip footstepsSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -49,6 +51,10 @@ public class RubyController : MonoBehaviour
         {
             lookDirection.Set(move.x, move.y);
             lookDirection.Normalize();
+            if (!audioSource.isPlaying)
+            {
+                audioSource.PlayOneShot(footstepsSound);
+            }
         }
 
         animator.SetFloat("Look X", lookDirection.x);
@@ -114,6 +120,7 @@ public class RubyController : MonoBehaviour
         projectile.Launch(lookDirection, 300);
 
         animator.SetTrigger("Launch");
+        audioSource.PlayOneShot(cogThrowClip);
     }
 
     public void PlaySound(AudioClip clip)
